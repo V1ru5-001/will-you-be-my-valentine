@@ -43,17 +43,17 @@ noButton.addEventListener("click", () => {
   }
 });
 
-const Giph = document.querySelector("#giphs");
+// const Giph = document.querySelector("#giphs");
 
-noButton.addEventListener("mouseenter", () => {
-  Giph.src = "Giphs/no.gif";
-  bodyElement.classList.add("body-change");
-});
+// noButton.addEventListener("mouseenter", () => {
+//   Giph.src = "Giphs/no.gif";
+//   bodyElement.classList.add("body-change");
+// });
 
-noButton.addEventListener("mouseleave", () => {
-  Giph.src = "Giphs/giphy.gif";
-  bodyElement.classList.remove("body-change");
-});
+// noButton.addEventListener("mouseleave", () => {
+//   Giph.src = "Giphs/giphy.gif";
+//   bodyElement.classList.remove("body-change");
+// });
 
 const yesTextContainer = document.querySelector("#yes-or-no");
 const h1Tag = document.querySelector(".h1-tag");
@@ -73,3 +73,4 @@ yesButton.addEventListener("click", () => {
   yesTextContainer.classList.add("yes-text");
   bodyElement.classList.add("body-change-2");
 });
+
