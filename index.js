@@ -1,5 +1,6 @@
 const noButton = document.getElementById("noBtn");
 const yesButton = document.getElementById("yesBtn");
+const Giph = document.querySelector("#giphs");
 const bodyElement = document.body;
 
 const message = [
