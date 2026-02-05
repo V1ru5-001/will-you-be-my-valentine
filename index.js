@@ -1,6 +1,6 @@
 const noButton = document.getElementById("noBtn");
 const yesButton = document.getElementById("yesBtn");
-const Giph = document.querySelector("#giphs");
+
 const bodyElement = document.body;
 
 const message = [
@@ -43,7 +43,7 @@ noButton.addEventListener("click", () => {
     yesButton.textContent = "So your answer is yes ";
   }
 });
-
+const Giph = document.querySelector("#giphs");
 
 const yesTextContainer = document.querySelector("#yes-or-no");
 const h1Tag = document.querySelector(".h1-tag");
@@ -63,5 +63,6 @@ yesButton.addEventListener("click", () => {
   yesTextContainer.classList.add("yes-text");
   bodyElement.classList.add("body-change-2");
 });
+
 
 
